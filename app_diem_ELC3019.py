@@ -14,9 +14,9 @@ SCORE_SPEC = [
     ('Kiểm tra trắc nghiệm Chương 1 và 2 (A)', '(a)'),
     ('Thảo luận các chủ đề về E-Payment (B)', '(b)'),
     ('Điểm cộng thành phần 1 (C)', '(c)'),
-    ('Thành phần 1', '^thành phần 1'),                            # '^' = tên cột bắt đầu bằng cụm này
+    ('Thành phần 1 (A×50% + B×50% + C×5%)', '^thành phần 1'),                            # '^' = tên cột bắt đầu bằng cụm này
 ]
-TP1_LABEL = 'Thành phần 1'
+TP1_LABEL = 'Thành phần 1 (A×50% + B×50% + C×5%)'
 
 st.set_page_config(page_title='Tra Cứu Điểm ELC3019', page_icon='🎓')
 
